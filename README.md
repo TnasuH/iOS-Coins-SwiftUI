@@ -1,2 +1,2 @@
 # iOS-Coins-SwiftUI
-SwiftUI, Combine, CoreData
+SwiftUI, MVVM, Combine, CoreData
