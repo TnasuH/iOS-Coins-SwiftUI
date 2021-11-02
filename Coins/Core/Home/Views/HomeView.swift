@@ -22,7 +22,6 @@ struct HomeView: View {
                 headerView
                 Spacer(minLength: 0)
             }
-            
         }
     }
 }
