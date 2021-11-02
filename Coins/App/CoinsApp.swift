@@ -11,7 +11,10 @@ import SwiftUI
 struct CoinsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView()
+                    .navigationBarHidden(true)
+            }
         }
     }
 }
