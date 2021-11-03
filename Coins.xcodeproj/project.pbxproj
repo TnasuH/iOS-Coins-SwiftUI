@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4AFF012731953500E22608 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4AFF002731953500E22608 /* HomeViewViewModel.swift */; };
 		2EA32B5827309C4B0085D523 /* CoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA32B5727309C4B0085D523 /* CoinsApp.swift */; };
 		2EA32B5A27309C4B0085D523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA32B5927309C4B0085D523 /* ContentView.swift */; };
 		2EA32B5C27309C4F0085D523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA32B5B27309C4F0085D523 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E4AFF002731953500E22608 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		2EA32B5427309C4B0085D523 /* Coins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA32B5727309C4B0085D523 /* CoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsApp.swift; sourceTree = "<group>"; };
 		2EA32B5927309C4B0085D523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		2EA32B782730A3450085D523 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				2E4AFF002731953500E22608 /* HomeViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				2EA32B822730A4F30085D523 /* CircleButtonView.swift in Sources */,
 				2EA32B6B27309F360085D523 /* Color.swift in Sources */,
 				2EA32B842730AFE60085D523 /* CircleButtonAnimationView.swift in Sources */,
+				2E4AFF012731953500E22608 /* HomeViewViewModel.swift in Sources */,
 				2EA32B8B2730BCCF0085D523 /* PreviewProvider.swift in Sources */,
 				2EA32B8D2730BFF80085D523 /* Double.swift in Sources */,
 				2EA32B872730BAD20085D523 /* CoinModel.swift in Sources */,
@@ -300,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -355,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

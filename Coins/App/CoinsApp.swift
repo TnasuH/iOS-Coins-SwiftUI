@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct CoinsApp: App {
+    
+    @StateObject private var vm = HomeViewViewModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                HomeView() 
                     .navigationBarHidden(true)
             }
+            .environmentObject(vm)
         }
     }
 }
