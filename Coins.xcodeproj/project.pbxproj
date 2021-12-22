@@ -19,6 +19,8 @@
 		2E70DBCF2772981200522DB8 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DBCE2772981200522DB8 /* StatisticModel.swift */; };
 		2E70DBD42772993500522DB8 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DBD32772993500522DB8 /* StatisticView.swift */; };
 		2E70DBD627729EEE00522DB8 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DBD527729EEE00522DB8 /* HomeStatsView.swift */; };
+		2E70DBD82773C85600522DB8 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DBD72773C85600522DB8 /* MarketDataModel.swift */; };
+		2E70DBDA2773CAF400522DB8 /* MarketDataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E70DBD92773CAF400522DB8 /* MarketDataServices.swift */; };
 		2EA32B5827309C4B0085D523 /* CoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA32B5727309C4B0085D523 /* CoinsApp.swift */; };
 		2EA32B5A27309C4B0085D523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA32B5927309C4B0085D523 /* ContentView.swift */; };
 		2EA32B5C27309C4F0085D523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA32B5B27309C4F0085D523 /* Assets.xcassets */; };
@@ -46,6 +48,8 @@
 		2E70DBCE2772981200522DB8 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 		2E70DBD32772993500522DB8 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		2E70DBD527729EEE00522DB8 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
+		2E70DBD72773C85600522DB8 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		2E70DBD92773CAF400522DB8 /* MarketDataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataServices.swift; sourceTree = "<group>"; };
 		2EA32B5427309C4B0085D523 /* Coins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA32B5727309C4B0085D523 /* CoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinsApp.swift; sourceTree = "<group>"; };
 		2EA32B5927309C4B0085D523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +81,7 @@
 			children = (
 				2E03D566273C802800F13067 /* CoinDataService.swift */,
 				2E03D570273CAFA500F13067 /* CoinImageService.swift */,
+				2E70DBD92773CAF400522DB8 /* MarketDataServices.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -188,7 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				2E4AFF002731953500E22608 /* HomeViewViewModel.swift */,
-				2E70DBCE2772981200522DB8 /* StatisticModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -234,7 +238,9 @@
 		2EA32B852730BAA40085D523 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2E70DBCE2772981200522DB8 /* StatisticModel.swift */,
 				2EA32B862730BAD20085D523 /* CoinModel.swift */,
+				2E70DBD72773C85600522DB8 /* MarketDataModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -314,7 +320,9 @@
 				2EA32B892730BC6F0085D523 /* CoinRowView.swift in Sources */,
 				2EA32B5A27309C4B0085D523 /* ContentView.swift in Sources */,
 				2EA32B7D2730A38E0085D523 /* HomeView.swift in Sources */,
+				2E70DBDA2773CAF400522DB8 /* MarketDataServices.swift in Sources */,
 				2E447D3427424039007195B7 /* LocalFileManager.swift in Sources */,
+				2E70DBD82773C85600522DB8 /* MarketDataModel.swift in Sources */,
 				2EA32B5827309C4B0085D523 /* CoinsApp.swift in Sources */,
 				2E70DBD42772993500522DB8 /* StatisticView.swift in Sources */,
 				2E03D56F273CADDC00F13067 /* CoinImageView.swift in Sources */,
