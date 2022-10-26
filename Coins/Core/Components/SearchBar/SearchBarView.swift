@@ -17,7 +17,6 @@ struct SearchBarView: View {
                 .foregroundColor(
                     searchText.isEmpty ? .theme.secondaryText : .theme.accent
                 )
-            
             TextField("Search by name or symbol", text: $searchText)
                 .foregroundColor(.theme.accent)
                 .disableAutocorrection(true)

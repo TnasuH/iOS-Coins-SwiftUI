@@ -22,6 +22,7 @@ struct CoinRowView: View {
             rightColumn
         }
         .font(.subheadline)
+        .listRowInsets(.init(top: 10, leading: 0, bottom: 10, trailing: 10))
     }
 }
 
@@ -50,7 +51,6 @@ extension CoinRowView {
                 .frame(width: 30, height: 30)
             Text(coin.symbol.uppercased())
                 .font(.headline)
-                .padding(.leading, 6)
                 .foregroundColor(.theme.accent)
         }
     }
@@ -70,9 +70,9 @@ extension CoinRowView {
             Text(coin.currentPrice.asCurrencyWith6Decimals())
                 .bold()
                 .foregroundColor(.theme.accent)
-            Text(coin.priceChangePercentage24H?.asPercentString() ?? "")
+            Text(coin.priceChangePercentage24H.asPercentString())
                 .foregroundColor(
-                    (coin.priceChangePercentage24H ?? 0) >= 0 ?
+                    (coin.priceChangePercentage24H) >= 0 ?
                         .theme.green : .theme.red
                 )
         }

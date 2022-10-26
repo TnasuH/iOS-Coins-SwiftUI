@@ -120,6 +120,16 @@ extension HomeView {
             }
             Text("Price")
                 .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+            
+            Button {
+                withAnimation(.linear(duration: 2.0)) {
+                    
+                }
+            } label: {
+                Image(systemName: "goforward")
+            }
+
+            
         }
         .font(.caption)
         .foregroundColor(.theme.secondaryText)
